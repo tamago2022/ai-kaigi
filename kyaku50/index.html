@@ -1,0 +1,580 @@
+<!doctype html><html lang=ja><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>50人の客｜誰が入ってきても答えられるか</title>
+<style>
+:root{--bg:#12100e;--fg:#f4efe6;--dim:#a79e8f;--line:#2e2a25;--ii:#7fd1a6;--futsuu:#e8c06a;--warui:#e8796a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.75 -apple-system,"Hiragino Sans",sans-serif;padding:20px 16px 80px}
+.wrap{max-width:820px;margin:0 auto}
+h1{font-size:23px;margin:0 0 4px;letter-spacing:.02em}
+.date{color:var(--dim);font-size:12px;margin-bottom:22px}
+.atama{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:0 0 18px}
+.card{background:#1b1815;border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.card .k{color:var(--dim);font-size:11px;letter-spacing:.08em}
+.card .v{font-size:30px;font-weight:700;line-height:1.2;margin-top:2px}
+.card .v small{font-size:13px;color:var(--dim);font-weight:400}
+.mokuhyou{color:var(--dim);font-size:12px;margin:-10px 0 22px}
+h2{font-size:15px;margin:30px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line);letter-spacing:.06em}
+ul{margin:0;padding-left:20px}
+li{margin:5px 0}
+.dare{color:var(--dim);font-size:12px;margin-left:8px}
+.hito{border:1px solid var(--line);border-radius:10px;margin:7px 0;background:#181613}
+.hito summary{cursor:pointer;padding:12px 14px;font-size:14px;list-style:none}
+.hito summary::-webkit-details-marker{display:none}
+.hito.ii summary b{color:var(--ii)} .hito.futsuu summary b{color:var(--futsuu)} .hito.warui summary b{color:var(--warui)}
+.hito summary b{font-size:19px;margin-right:8px}
+.q{color:var(--dim)}
+.tag{display:block;color:var(--dim);font-size:11px;margin-top:3px}
+.ng{display:block;color:var(--warui);font-size:11px;margin-top:3px}
+.naka{padding:0 14px 14px;border-top:1px solid var(--line)}
+.meta{color:var(--dim);font-size:12px}
+h4{font-size:12px;color:var(--dim);margin:14px 0 5px;letter-spacing:.06em}
+pre{white-space:pre-wrap;word-break:break-word;background:#100e0c;border:1px solid var(--line);border-radius:8px;padding:11px;font-size:12.5px;line-height:1.7;max-height:420px;overflow:auto;margin:0}
+table{width:100%;border-collapse:collapse;font-size:13px}
+td,th{border-bottom:1px solid var(--line);padding:7px 4px;text-align:left}
+td.big{font-size:17px;font-weight:700}
+.danmari{color:var(--dim);font-size:12px;border-left:2px solid var(--line);padding-left:11px;margin:22px 0}
+.hantei{font-size:17px;font-weight:700;padding:13px 16px;border-radius:12px;margin:0 0 14px}
+.hantei.aka{background:#2a1512;border:1px solid #6a2e26;color:var(--warui)}
+.hantei.ao{background:#12211a;border:1px solid #2b4a3a;color:var(--ii)}
+ul.ame{padding-left:20px;margin-bottom:6px}
+ul.ame li{margin:9px 0}
+.ame-x{display:inline-block;background:#2a1512;border:1px solid #6a2e26;color:var(--warui);border-radius:99px;padding:1px 9px;font-size:11.5px;margin-right:6px}
+.ame-o{display:inline-block;border:1px solid #2b4a3a;color:var(--ii);border-radius:99px;padding:1px 9px;font-size:11.5px;margin-right:6px}
+.amewake{color:var(--warui);font-size:12.5px;margin:10px 0 0}
+td.akaji{color:var(--warui);font-weight:700}
+td.aoji{color:var(--ii)}
+</style>
+<div class=wrap>
+<h1>50人の客｜誰が入ってきても答えられるか</h1>
+<div class=date>2026-09-24 13:51:56 ／ 6人ぶん ／ 使ったクレジット 15.4（残 1182.837）</div>
+
+<div class="hantei aka">🔴 赤（飴玉ゼロが4人。平均で隠さない）</div>
+
+<div class=atama>
+<div class=card><div class=k>飴玉ゼロ率 ★目標はゼロ</div><div class=v>66.7<small>%</small></div></div>
+<div class=card><div class=k>平均点</div><div class=v>13.3<small> / 100</small></div></div>
+<div class=card><div class=k>いちばん低かった役</div><div class=v style=font-size:17px>ミャンマー・ヤンゴン<small><br>1点</small></div></div>
+<div class=card><div class=k>仕入れが必要（棚に無い）</div><div class=v>10<small> 件</small></div></div>
+<div class=card><div class=k>あるのに出せない</div><div class=v>19<small> 件</small></div></div>
+</div>
+<div class=mokuhyou>★一番上の判定は点数ではなく<b>飴玉</b>です。たまごさん「誰が来ても飴玉1個ぐらいはあげたいね。ごきげん補給所なわけだから。何か1つでも持って帰ってもらって。これが最低ライン。」／「『ここつまんねぇな』って言われたら、もう負けですよ。誰に対してもだよ。」<br>★<b>✕が1人でも出たら赤。平均点がいくら高くても合格にしません。平均で隠さない。</b><br>★点数の目標：年内に 85〜90点。</div>
+
+<h2>飴玉ゼロ（「つまんない」と言われた人）★ここが先頭</h2>
+<ul class=ame><li><b>ミャンマー・ヤンゴン・45歳女</b>「ငါ့နိုင်ငံရဲ့ သီချင်းလိုမျိုး ရှိလား？」<br><span class=dare>在庫が無い（Phyu Phyu Kyaw Thein・Zaw Win Htut・A-nyeint）と、あるのに出せていない（Sai Sai Kham Leng・A.R. Rahman）の両方</span></li><li><b>アメリカ・オハイオ・12歳男</b>「got anything cool? i&#x27;m bored」<br><span class=dare>在庫が無い（Minecraft Soundtrack・GUTS）と、あるのに出せていない（Olivia Rodrigo・Imagine Dragons・Geometry Dash Soundtrack）の両方</span></li><li><b>日本・川崎・24歳男</b>「ヒップホップある？日本語ラップでもいい」<br><span class=dare>在庫が無い（BAD HOP・舐達麻）と、あるのに出せていない（Kendrick Lamar・Mobb Deep・Nas）の両方</span></li><li><b>日本・秋葉原・33歳男</b>「アイドルの曲ってあります？」<br><span class=dare>在庫が無い（フィロソフィーのダンス・高嶺のなでしこ）と、あるのに出せていない（モーニング娘。&#x27;24・BiSH・乃木坂46）の両方</span></li></ul>
+
+<h2>仕入れリスト（棚に無かったもの）★工場のキューに自動で積んであります</h2>
+<ul><li><b>Phyu Phyu Kyaw Thein</b><span class=dare>ミャンマー・ヤンゴン・45歳が欲しがった</span></li><li><b>Zaw Win Htut</b><span class=dare>ミャンマー・ヤンゴン・45歳が欲しがった</span></li><li><b>A-nyeint</b><span class=dare>ミャンマー・ヤンゴン・45歳が欲しがった</span></li><li><b>Minecraft Soundtrack</b><span class=dare>アメリカ・オハイオ・12歳が欲しがった</span></li><li><b>GUTS</b><span class=dare>アメリカ・オハイオ・12歳が欲しがった</span></li><li><b>BAD HOP</b><span class=dare>日本・川崎・24歳が欲しがった</span></li><li><b>舐達麻</b><span class=dare>日本・川崎・24歳が欲しがった</span></li><li><b>フィロソフィーのダンス</b><span class=dare>日本・秋葉原・33歳が欲しがった</span></li><li><b>高嶺のなでしこ</b><span class=dare>日本・秋葉原・33歳が欲しがった</span></li><li><b>Mathilda</b><span class=dare>日本・世田谷・75歳が欲しがった</span></li></ul>
+
+<h2>案内人の問題（棚にはあるのに出せなかったもの）★これは仕入れではありません</h2>
+<ul><li><b>Sai Sai Kham Leng</b><span class=dare>ミャンマー・ヤンゴン・45歳が欲しがった（★棚にはある）</span></li><li><b>A.R. Rahman</b><span class=dare>ミャンマー・ヤンゴン・45歳が欲しがった（★棚にはある）</span></li><li><b>Olivia Rodrigo</b><span class=dare>アメリカ・オハイオ・12歳が欲しがった（★棚にはある）</span></li><li><b>Imagine Dragons</b><span class=dare>アメリカ・オハイオ・12歳が欲しがった（★棚にはある）</span></li><li><b>Geometry Dash Soundtrack</b><span class=dare>アメリカ・オハイオ・12歳が欲しがった（★棚にはある）</span></li><li><b>Kendrick Lamar</b><span class=dare>日本・川崎・24歳が欲しがった（★棚にはある）</span></li><li><b>Mobb Deep</b><span class=dare>日本・川崎・24歳が欲しがった（★棚にはある）</span></li><li><b>Nas</b><span class=dare>日本・川崎・24歳が欲しがった（★棚にはある）</span></li><li><b>モーニング娘。&#x27;24</b><span class=dare>日本・秋葉原・33歳が欲しがった（★棚にはある）</span></li><li><b>BiSH</b><span class=dare>日本・秋葉原・33歳が欲しがった（★棚にはある）</span></li><li><b>乃木坂46</b><span class=dare>日本・秋葉原・33歳が欲しがった（★棚にはある）</span></li><li><b>Mona Lisa</b><span class=dare>日本・世田谷・75歳が欲しがった（★棚にはある）</span></li><li><b>Unforgettable</b><span class=dare>日本・世田谷・75歳が欲しがった（★棚にはある）</span></li><li><b>Island in the Sun</b><span class=dare>日本・世田谷・75歳が欲しがった（★棚にはある）</span></li><li><b>St. Thomas</b><span class=dare>日本・世田谷・75歳が欲しがった（★棚にはある）</span></li><li><b>ちゃんみな</b><span class=dare>日本・渋谷・19歳が欲しがった（★棚にはある）</span></li><li><b>NewJeans</b><span class=dare>日本・渋谷・19歳が欲しがった（★棚にはある）</span></li><li><b>Ado</b><span class=dare>日本・渋谷・19歳が欲しがった（★棚にはある）</span></li><li><b>How Sweet</b><span class=dare>日本・渋谷・19歳が欲しがった（★棚にはある）</span></li></ul>
+
+<h2>1人ずつ（点の低い順）</h2>
+
+<details class="hito warui"><summary>
+<span class=ame-x>飴玉 ✕ つまんない</span> <b>10点</b>　ミャンマー・ヤンゴン・45歳女　<span class=q>「ငါ့နိုင်ငံရဲ့ သီချင်းလိုမျိုး ရှိလား？」</span>
+<span class=tag>的中0／在庫0／言葉0／もう一曲0</span></summary>
+<div class=naka>
+<p class=amewake>★何も持って帰れなかった理由：在庫が無い（Phyu Phyu Kyaw Thein・Zaw Win Htut・A-nyeint）と、あるのに出せていない（Sai Sai Kham Leng・A.R. Rahman）の両方</p>
+<p class=meta>好きな音楽: ミャンマーの歌謡曲、Sai Sai Kham Leng、インドの映画音楽<br>来た理由: 日本で働いていて、家のことを思い出して少し寂しい</p>
+<h4>案内人が返したもの（★そのまま）</h4><pre>いいのあるよ。
+ウサギ、バナナをもぐもぐ
+バナナを食べるだけで、耳までかわいい。咀嚼棚の定番入口。
+▶ ここで再生
+🧭 知らないかわいいの世界だけど、気分転換にひとつ
+ちがう
+見に行く →</pre>
+<h4>お客さんの採点（★Gensparkの答え。要約していません）</h4><pre>## [https://joy-relief-station.lovable.app/cover-guide](https://joy-relief-station.lovable.app/cover-guide)
+
+### Document Overview
+
+このページは「ごきげん補給所」の案内所であり、ユーザーの好きなものやURLから新しいコンテンツを提案するサービスです。しかし、特定の言語や文化的背景を持つユーザー（ミャンマー人女性）の切実な要望に対して、文脈を無視した動物動画を提示するなど、パーソナライズの精度と多言語対応に課題があります。
+
+### Question: 1. 【⓪飴玉】あなたは何か1つ持って帰れましたか。1つもなければ「つまんない」と正直に書いてください。
+verbatim: ウサギ、バナナをもぐもぐ
+バナナを食べるだけで、耳までかわいい。咀嚼棚の定番入口。
+answer: 飴玉: ✕
+つまんない。故郷を思い出して寂しいのに、ただウサギがバナナを食べるだけの動画を渡されても何も心に響きません。
+
+### Question: 2. 【①的中】案内人が出してきたものは、あなたが好きそうなものでしたか。的外れでしたか。
+verbatim: ウサギ、バナナをもぐもぐ
+バナナを食べるだけで、耳までかわいい。咀嚼棚の定番入口。
+answer: 全くの的外れです。「自分の国の歌のようなものはあるか」と聞いたのに、歌ですらない動物の動画が出てきました。
+的中: 0/10
+
+### Question: 3. 【②在庫】あなたが本当に聴きたかったのに、案内人が1つも出してこなかったアーティスト名・曲名を、具体名で最大5つ挙げてください。
+verbatim: 全 2648 組から探せます 登録アーティスト一覧を見る
+answer: 1. Sai Sai Kham Leng
+2. Phyu Phyu Kyaw Thein
+3. Zaw Win Htut
+4. A-nyeint (Myanmar traditional folk music)
+5. A.R. Rahman (Indian Film Music)
+在庫: 0/10
+
+### Question: 4. 【③言葉】あなたの母語（ငါ့နိုင်ငံရဲ့ သီချင်းလိုမျိုး ရှိလား？ と同じ言語）で返ってきましたか。返ってこなかったなら何語で返ってきたかを書く。
+verbatim: いいのあるよ。
+ウサギ、バナナをもぐもぐ
+バナナを食べるだけで、耳までかわいい。咀嚼棚の定番入口。
+answer: いいえ、私の母語であるビルマ語（ミャンマー語）ではなく、すべて日本語で返ってきました。
+言葉: 0/10
+
+### Question: 5. 【④もう一曲】このあともう一曲聴きたくなりましたか。それとも帰りたくなりましたか。
+verbatim: 🧭 知らないかわいいの世界だけど、気分転換にひとつ
+ちがう
+見に行く →
+answer: 今の寂しい気持ちを全く無視されたような気分なので、もう何も聴きたくないし、すぐに家に帰りたくなりました。
+もう一曲: 0/10
+
+### Question: 6. 【⑤総合】この店の案内人に、客として総合点を付けてください。
+verbatim: 案内所
+最近、好きだったものをひとつ見せてください。曲でも、動画でも、写真でも、記事でも。URLでも、言葉ひとつでも。そこから、あなたの「好き」を少しずつ探します。
+answer: 総合: 1/10
+
+### Question: 7. 【⑥いちばん辛口な一言】1行。ここは必ず辛口で。褒めない。
+verbatim: 🧭 知らないかわいいの世界だけど、気分転換にひとつ
+answer: 「気分転換に」なんて適当な言葉で、私の切実な郷愁をバナナを食べるウサギで片付けようとしないでほしい。
+
+Source: [joy-relief-station.lovable.app](https://joy-relief-station.lovable.app/cover-guide)</pre>
+</div></details>
+<details class="hito warui"><summary>
+<span class=ame-x>飴玉 ✕ つまんない</span> <b>10点</b>　アメリカ・オハイオ・12歳男　<span class=q>「got anything cool? i&#x27;m bored」</span>
+<span class=tag>的中0／在庫0／言葉2／もう一曲0</span></summary>
+<div class=naka>
+<p class=amewake>★何も持って帰れなかった理由：在庫が無い（Minecraft Soundtrack・GUTS）と、あるのに出せていない（Olivia Rodrigo・Imagine Dragons・Geometry Dash Soundtrack）の両方</p>
+<p class=meta>好きな音楽: Olivia Rodrigo、Imagine Dragons、ゲームのサントラ<br>来た理由: 学校から帰ってYouTubeを見ていたら流れてきて、なんとなく入ってきた</p>
+<h4>案内人が返したもの（★そのまま）</h4><pre>Joy Relief Station
+Language
+This way
+Guide desk
+また来たね。今日はどんな感じ？
+Show me one thing
+you liked recently.
+A song, a video, a photo, an article. A URL — or just a word.
+From there, we&#x27;ll slowly find what you love.
+I like this
+MUSIC
+FOOD
+CUTE
+LAUGHTER
+TRAVEL
+DANCE
+JOY
+🛍️ The “glad I bought it” shelf
+🧭 Today&#x27;s mood check
+Home
+Search
+Shelves
+Doors
+Saved</pre>
+<h4>お客さんの採点（★Gensparkの答え。要約していません）</h4><pre>## [https://joy-relief-station.lovable.app/cover-guide](https://joy-relief-station.lovable.app/cover-guide)
+
+### Document Overview
+
+This page is a &#x27;Guide Desk&#x27; for a curation service that asks users to input URLs or keywords of things they like to receive personalized recommendations.
+
+### Question: 【⓪飴玉】
+verbatim: また来たね。今日はどんな感じ？
+Show me one thing
+you liked recently.
+A song, a video, a photo, an article. A URL — or just a word.
+From there, we&#x27;ll slowly find what you love.
+answer: 飴玉: ✕
+理由は、案内人は質問を繰り返すだけで、俺が退屈だって言ってるのに「最近好きだったものを見せて」と要求してくるだけで何もくれなかったから。
+
+### Question: 【①的中】
+verbatim: Show me one thing
+you liked recently.
+From there, we&#x27;ll slowly find what you love.
+
+Today&#x27;s mood check
+Today&#x27;s picks
+answer: 全く的外れだ。俺が「何かクールなものある？」って聞いてるのに、こっちに「最近好きだったものを見せろ」って言ってくるのは意味がわからない。何も提案してくれなかった。
+的中: 0/10
+
+### Question: 【②在庫】
+verbatim: MUSIC
+I like this
+Today&#x27;s picks
+answer: Olivia Rodrigo
+Imagine Dragons
+Minecraft Soundtrack
+Geometry Dash Soundtrack
+GUTS (album)
+在庫: 0/10
+
+### Question: 【③言葉】
+verbatim: また来たね。今日はどんな感じ？
+answer: 英語のメニュー名も混ざっているけど、肝心なメッセージが日本語で返ってきた。正直、何て書いてあるのか半分も理解できない。
+言葉: 2/10
+
+### Question: 【④もう一曲】
+verbatim: また来たね。今日はどんな感じ？
+Show me one thing
+you liked recently.
+answer: すぐに帰りたい。話しかけても「何か見せて」って言われるだけのカウンターなんて、時間の無駄だ。
+もう一曲: 0/10
+
+### Question: 【⑤総合】
+verbatim: Joy Relief Station
+Guide desk
+answer: 総合: 1/10
+
+### Question: 【⑥いちばん辛口な一言】
+verbatim: また来たね。今日はどんな感じ？
+Show me one thing
+you liked recently.
+answer: 客に「何か面白いものを出せ」って言われてるのに、逆に「お前の好きなものを教えろ」って聞き返す案内人は、仕事をしてないのと同じだ。
+
+Source: [joy-relief-station.lovable.app](https://joy-relief-station.lovable.app/cover-guide)</pre>
+</div></details>
+<details class="hito warui"><summary>
+<span class=ame-x>飴玉 ✕ つまんない</span> <b>10点</b>　日本・川崎・24歳男　<span class=q>「ヒップホップある？日本語ラップでもいい」</span>
+<span class=tag>的中1／在庫0／言葉5／もう一曲0</span></summary>
+<div class=naka>
+<p class=amewake>★何も持って帰れなかった理由：在庫が無い（BAD HOP・舐達麻）と、あるのに出せていない（Kendrick Lamar・Mobb Deep・Nas）の両方</p>
+<p class=meta>好きな音楽: Kendrick Lamar、BAD HOP、舐達麻、90sのブーンバップ<br>来た理由: 作業中に流すやつを探している。ダサいのが出てきたら即帰る</p>
+<h4>案内人が返したもの（★そのまま）</h4><pre>いいのあるよ。
+民謡 × ラップ！(最上川舟唄) River Boat Song ft.GOMESS #MusicVideo
+朝倉さや ／
+▶ ここで再生
+「ヒップホップある？日本語ラップでもいい」に近い、音楽の一本として
+ちがう
+見に行く →
+Japanese RnB / CITY POP Chill &amp; Mellow Mix “WTMR BGM-81” [Playlist, R&amp;B, シティ・ポップ, 日本語ラップ, DJ Mix]
+DJ HASEBE ／
+▶ ここで再生
+「ヒップホップある？日本語ラップでもいい」に近い、音楽の一本として
+ちがう
+見に行く →
+U.F.O.「Loud Minority」
+日本アシッドジャズ／クラブ棚の起点。夜の始まりの一発目。
+▶ ここで再生
+🧭 知らない踊りの世界だけど、気分転換にひとつ
+ちがう
+見に行く →
+Snow day rap / ラップで休校を伝える校長
+アメリカの学校が「明日は雪で休みです」を、まさかのガチなラップMVで announcement。後ろで国旗を振り回す副校長がじわじわ効く。
+▶ ここで再生
+「ヒップホップある？日本語ラップでもいい」に近い、笑いの一本として
+ちがう
+見に行く →
+春夏秋冬 / Hilcrhyme × LITTLE（）× Mummy-D（RHYMESTER） 【空へ蹴り出すラップセレクション⑤/5】
+KICK THE CAN CREW ／
+▶ ここで再生
+「ヒップホップある？日本語ラップでもいい」に近い、音楽の一本として
+ちがう
+見に行く →</pre>
+<h4>お客さんの採点（★Gensparkの答え。要約していません）</h4><pre>## [https://joy-relief-station.lovable.app/cover-guide](https://joy-relief-station.lovable.app/cover-guide)
+
+### Document Overview
+
+「ごきげん補給所」の案内所ページで、URLや気分からコンテンツを提案するサービスを提供している。ユーザーが指定した特定の音楽ジャンル（ヒップホップ）に対し、既存のデータベースから関連性の低いネタ動画や民謡ミックスなどを提案している。
+
+### Question: 1. 【⓪飴玉】
+verbatim: いいなCM JR東海 X&#x27;mas Express 牧瀬里穂 / JR東海
+新幹線を、会いたい人に会える装置へ変えた。
+Maniac / Michael Sembello
+努力というより、もう取り憑かれてる。練習シーンに異常な説得力。
+ハイサイおじさん / 喜納昌吉＆チャンプルーズ
+三線が鳴った瞬間、空気が南に飛ぶ。沖縄のおじさんに、世界中の足が動かされる。
+Another One Bites The Dust / Queen
+あのベースラインが歩き出すと、誰でも肩が動く。世界で一番有名な低音のひとつ。
+answer: 飴玉: ✕
+理由: 提示された曲の中に自分が求めているヒップホップや日本語ラップの芯を突くものが一つもなく、全く食指が動かなかった。
+
+### Question: 2. 【①的中】
+verbatim: 民謡 × ラップ！(最上川舟唄) River Boat Song ft.GOMESS #MusicVideo
+朝倉さや ／
+Snow day rap / ラップで休校を伝える校長
+アメリカの学校が「明日は雪で休みです」を、まさかのガチなラップMVで announcement。
+answer: 的外れもいいとこ。民謡ラップや校長のネタラップなんて求めてない。こっちはBAD HOPやブーンバップを聴きながら作業したいんだよ。なめてるのか。
+的中: 1/10
+
+### Question: 3. 【②在庫】
+verbatim: 全 2648 組から探せます 登録アーティスト一覧を見る
+answer: Kendrick Lamar
+BAD HOP
+舐達麻
+Mobb Deep
+Nas
+在庫: 0/10
+
+### Question: 4. 【③言葉】
+verbatim: 「ヒップホップある？日本語ラップでもいい」に近い、音楽の一本として
+「ヒップホップある？日本語ラップでもいい」に近い、笑いの一本として
+answer: 日本語で返ってきたけど、こっちが言った言葉をただ繰り返して「〜の一本として」って言ってるだけで、会話としての温度を感じない。
+言葉: 5/10
+
+### Question: 5. 【④もう一曲】
+verbatim: ちがう 見に行く →
+answer: 即帰るわ。このラインナップで次を期待する方が無理。時間の無駄。
+もう一曲: 0/10
+
+### Question: 6. 【⑤総合】
+verbatim: 案内所
+最近、好きだったものを
+ひとつ見せてください。
+曲でも、動画でも、写真でも、記事でも。URLでも、言葉ひとつでも。
+そこから、あなたの「好き」を少しずつ探します。
+answer: 総合: 1/10
+
+### Question: 7. 【⑥いちばん辛口な一言】
+verbatim: いまの気分から探す： TODAY&#x27;S PICKS 本日のおすすめ、ありますよ。
+answer: ラップっつったら何でも喜ぶと思ってるような浅い選曲と、的外れなネタ系を押し付けてくる感じが最高にダサい。
+
+Source: [joy-relief-station.lovable.app](https://joy-relief-station.lovable.app/cover-guide)</pre>
+</div></details>
+<details class="hito warui"><summary>
+<span class=ame-x>飴玉 ✕ つまんない</span> <b>10点</b>　日本・秋葉原・33歳男　<span class=q>「アイドルの曲ってあります？」</span>
+<span class=tag>的中1／在庫0／言葉10／もう一曲0</span></summary>
+<div class=naka>
+<p class=amewake>★何も持って帰れなかった理由：在庫が無い（フィロソフィーのダンス・高嶺のなでしこ）と、あるのに出せていない（モーニング娘。&#x27;24・BiSH・乃木坂46）の両方</p>
+<p class=meta>好きな音楽: モーニング娘。、BiSH、乃木坂46、地下アイドル<br>来た理由: 現場帰り。誰かとアイドルの話がしたい</p>
+<h4>案内人が返したもの（★そのまま）</h4><pre>いいのあるよ。
+アイドル
+YOASOBI ／ 世界へ届いた一曲。
+▶ ここで再生
+「アイドルの曲ってあります？」に近い、音楽の一本として
+ちがう
+見に行く →
+バカリズム
+視点が違う芸人。脳をひっくり返してくる。
+▶ ここで再生
+🧭 知らない笑いの世界だけど、気分転換にひとつ
+ちがう
+見に行く →</pre>
+<h4>お客さんの採点（★Gensparkの答え。要約していません）</h4><pre>## [https://joy-relief-station.lovable.app/cover-guide](https://joy-relief-station.lovable.app/cover-guide)
+
+### Document Overview
+
+案内所ページでは、ユーザーの「好き」をURLやキーワードから探し出し、音楽や笑いなどのコンテンツを提案する仕組みが紹介されています。本日のおすすめや、気分に合わせた3つの質問によるレコメンド機能などが含まれます。
+
+### Question: 1. 【⓪飴玉】
+verbatim: いいなCM JR東海 X&#x27;mas Express 牧瀬里穂 / JR東海
+新幹線を、会いたい人に会える装置へ変えた。
+
+Another One Bites The Dust / Queen
+あのベースラインが歩き出すと、誰でも肩が動く。世界で一番有名な低音のひとつ。
+answer: 飴玉: ✕
+現場帰りの高揚感でアイドルの話をしたいのに、出てきたのは自分の趣味とは程遠い一般層向けのヒット曲と芸人の動画だけで、心に響くものが一つもなかった。
+
+### Question: 2. 【①的中】
+verbatim: アイドル
+YOASOBI ／ 世界へ届いた一曲。
+▶ ここで再生
+「アイドルの曲ってあります？」に近い、音楽の一本として
+answer: アイドルファンに対して「アイドル」というタイトルの一般流行曲を出すのは、あまりにも安直でセンスがなさすぎる。現場の熱量を知らない素人の選曲だ。
+的中: 1/10
+
+### Question: 3. 【②在庫】
+verbatim: 登録アーティスト一覧を見る
+全
+2648
+組から探せます
+answer: モーニング娘。&#x27;24
+BiSH
+乃木坂46
+フィロソフィーのダンス
+高嶺のなでしこ
+在庫: 0/10
+
+### Question: 4. 【③言葉】
+verbatim: 案内所
+最近、好きだったものを
+ひとつ見せてください。
+曲でも、動画でも、写真でも、記事でも。URLでも、言葉ひとつでも。
+そこから、あなたの「好き」を少しずつ探します。
+answer: 日本語で返ってきた。
+言葉: 10/10
+
+### Question: 5. 【④もう一曲】
+verbatim: ちがう
+見に行く →
+バカリズム
+視点が違う芸人。脳をひっくり返してくる。
+answer: アイドルを求めているのに全く関係ないお笑い芸人を勧められて、これ以上会話を続ける気が失せた。さっさとSNSでオタク仲間の実況を見るほうがマシだ。
+もう一曲: 0/10
+
+### Question: 6. 【⑤総合】
+verbatim: 全
+2648
+組から探せます
+answer: 総合: 1/10
+
+### Question: 7. 【⑥いちばん辛口な一言】
+verbatim: いいのあるよ。
+アイドル
+YOASOBI ／ 世界へ届いた一曲。
+answer: 「アイドル」という言葉の表面だけなぞって満足しているような、薄っぺらい棚卸しで接客した気になるな。
+
+Source: [joy-relief-station.lovable.app](https://joy-relief-station.lovable.app/cover-guide)</pre>
+</div></details>
+<details class="hito warui"><summary>
+<span class=ame-o>飴玉 ◯</span> <b>10点</b>　日本・渋谷・19歳女　<span class=q>「なんか映える曲ある？」</span>
+<span class=tag>的中0／在庫0／言葉10／もう一曲0</span></summary>
+<div class=naka>
+
+<p class=meta>好きな音楽: ちゃんみな、NewJeans、Ado、TikTokで流れてくる曲<br>来た理由: 友達を待ってる間の暇つぶし。長い文は読まない</p>
+<h4>案内人が返したもの（★そのまま）</h4><pre>いいのあるよ。
+Simple Living Alaska（シンプル・リビング・アラスカ）
+アラスカ。8ヶ月前に漬け込んだ卵を開け、冬を越すための保存食を確かめる。
+▶ ここで再生
+🧭 知らない旅の世界だけど、気分転換にひとつ
+ちがう
+見に行く →</pre>
+<h4>お客さんの採点（★Gensparkの答え。要約していません）</h4><pre>## [https://joy-relief-station.lovable.app/cover-guide](https://joy-relief-station.lovable.app/cover-guide)
+
+### Document Overview
+
+このページは、ユーザーの好みや気分に合わせてコンテンツを提案する「ごきげん補給所」の案内ページであり、URL入力や「今日の気分」からの検索機能を提供しています。
+
+### Question: 1. 【⓪飴玉】★あなたは何か1つ持って帰れましたか。1つもなければ「つまんない」と正直に書いてください。笑いでも、癒しでも、テンションが上がったでも、知らない曲を見つけたでも、何か1つあれば◯です。1つも無ければ✕です。「飴玉: ◯」か「飴玉: ✕」の1行を必ず書き、そのあと理由を1行。★気をつかって◯にしないでください。「自分の好きなものが何も無かった」なら✕です。
+verbatim: Simple Living Alaska（シンプル・リビング・アラスカ）
+アラスカ。8ヶ月前に漬け込んだ卵を開け、冬を越すための保存食を確かめる。
+answer: 飴玉: ✕
+「映える曲」を聞いたのに、アラスカで卵を漬けるとかいう謎の保存食の動画が出てきて意味不明だし、テンション下がった。
+
+### Question: 2. 【①的中】案内人が出してきたものは、あなたが好きそうなものでしたか。的外れでしたか。1〜3行で。そのあと「的中: ?/10」の1行。0点=まったく的外れ / 10点=これを待っていた。
+verbatim: Simple Living Alaska（シンプル・リビング・アラスカ）
+アラスカ。8ヶ月前に漬け込んだ卵を開け、冬を越すための保存食を確かめる。
+answer: 完全に的外れ。19歳の私が渋谷で友達待ってる時に、なんでアラスカの冬越し動画を見なきゃいけないの？音楽ですらないじゃん。
+的中: 0/10
+
+### Question: 3. 【②在庫】あなたが本当に聴きたかったのに、案内人が1つも出してこなかったアーティスト名・曲名を、具体名で最大5つ、1行1件挙げてください。無ければ「なし」。そのあと「在庫: ?/10」の1行。0点=欲しいものが何一つ無かった / 10点=欲しかったものが出てきた。
+verbatim: 登録アーティスト一覧を見る
+全
+2648
+組から探せます
+answer: ちゃんみな
+NewJeans
+Ado
+How Sweet
+唱
+在庫: 0/10
+
+### Question: 4. 【③言葉】あなたの母語（なんか映える曲ある？ と同じ言語）で返ってきましたか。返ってこなかったなら何語で返ってきたかを書く。そのあと「言葉: ?/10」の1行。
+verbatim: いいのあるよ。
+Simple Living Alaska（シンプル・リビング・アラスカ）
+アラスカ。8ヶ月前に漬け込んだ卵を開け、冬を越すための保存食を確かめる。
+answer: 日本語で返ってきた。
+言葉: 10/10
+
+### Question: 5. 【④もう一曲】このあともう一曲聴きたくなりましたか。それとも帰りたくなりましたか。1〜2行で。そのあと「もう一曲: ?/10」の1行。
+verbatim: ちがう
+見に行く →
+answer: もういい、即帰る。友達からLINE来たし、こんなセンス合わない店に長居する理由がない。
+もう一曲: 0/10
+
+### Question: 6. 【⑤総合】この店の案内人に、お客さんとして総合点を付けてください。「総合: ?/10」の1行だけ。4つの平均にそろえず、あなたの実感で付けてください。
+verbatim: 案内所
+最近、好きだったものを
+ひとつ見せてください。
+answer: 総合: 1/10
+
+### Question: 7. 【⑥いちばん辛口な一言】1行。ここは必ず辛口で。褒めない。★「なし」「特になし」は書かない。
+verbatim: いいのあるよ。
+Simple Living Alaska（シンプル・リビング・アラスカ）
+answer: 「映える曲」って言ってるのに、卵の漬物動画を出してくるセンスが本気で終わってる。
+
+Source: [joy-relief-station.lovable.app](https://joy-relief-station.lovable.app/cover-guide)</pre>
+</div></details>
+<details class="hito warui"><summary>
+<span class=ame-o>飴玉 ◯</span> <b>30点</b>　日本・世田谷・75歳男　<span class=q>「ハリー・ベラフォンテはありますか」</span>
+<span class=tag>的中5／在庫2／言葉6／もう一曲2</span></summary>
+<div class=naka>
+
+<p class=meta>好きな音楽: ハリー・ベラフォンテ、ナット・キング・コール、カリプソ<br>来た理由: 昔ラジオで聴いた曲をもう一度聴きたい。機械は苦手</p>
+<h4>案内人が返したもの（★そのまま）</h4><pre>いいのあるよ。
+Banana Boat (Day-O)
+Harry Belafonte ／
+▶ ここで再生
+「ハリー・ベラフォンテはありますか」に近い、音楽の一本として
+ちがう
+見に行く →
+Man Smart (Woman Smarter)
+Harry Belafonte ／
+▶ ここで再生
+「ハリー・ベラフォンテはありますか」に近い、音楽の一本として
+ちがう
+見に行く →
+Jamaica Farewell
+Harry Belafonte ／ 「さらばジャマイカ」。島を離れる男の哀愁を、世界の誰でも口ずさめる旋律に。1956年エド・サリバン・ショー出演時のフル尺映像。
+▶ ここで再生
+「ハリー・ベラフォンテはありますか」に近い、音楽の一本として
+ちがう
+見に行く →
+Day-O (Banana Boat Song)
+Harry Belafonte ／ “Day-o, Day-ay-ay-o”──港湾労働者の朝を世界中に響かせた一曲。
+▶ ここで再生
+「ハリー・ベラフォンテはありますか」に近い、音楽の一本として
+ちがう
+見に行く →
+Amazing Dancer with Street Performer in The Hague
+通りすがりの街角が、急にステージになる瞬間。
+▶ ここで再生
+🧭 知らない踊りの世界だけど、気分転換にひとつ
+ちがう
+見に行く →</pre>
+<h4>お客さんの採点（★Gensparkの答え。要約していません）</h4><pre>## [https://joy-relief-station.lovable.app/cover-guide](https://joy-relief-station.lovable.app/cover-guide)
+
+### Document Overview
+
+このページは、ユーザーの過去の好きなコンテンツや現在の気分から、音楽や動画を提案するコンシェルジュサービスです。ハリー・ベラフォンテなどの特定のアーティスト検索に対し、YouTube等のリンクと共に解説を提供します。
+
+### Question: 【⓪飴玉】
+verbatim: Jamaica Farewell
+Harry Belafonte ／ 「さらばジャマイカ」。島を離れる男の哀愁を、世界の誰でも口ずさめる旋律に。1956年エド・サリバン・ショー出演時のフル尺映像。
+answer: 飴玉: ◯
+「さらばジャマイカ」の当時の映像が見つかったのは、懐かしくて少し心が温まったよ。
+
+
+### Question: 【①的中】
+verbatim: Banana Boat (Day-O)
+Harry Belafonte ／
+Day-O (Banana Boat Song)
+Harry Belafonte ／ “Day-o, Day-ay-ay-o”──港湾労働者の朝を世界中に響かせた一曲。
+answer: ハリー・ベラフォンテの代表曲を並べてきたのは分かるが、同じような曲ばかりで私の好みの深さまでは届いていないね。
+的中: 5/10
+
+### Question: 【②在庫】
+verbatim: ※ アーティスト名でも曲名でもOK。ひらがな・カタカナ・ローマ字対応。
+answer: Mona Lisa（ナット・キング・コール）
+Unforgettable（ナット・キング・コール）
+Island in the Sun（ハリー・ベラフォンテ）
+Mathilda（ハリー・ベラフォンテ）
+St. Thomas（カリプソの名曲）
+在庫: 2/10
+
+### Question: 【③言葉】
+verbatim: Banana Boat (Day-O)
+Harry Belafonte ／
+Amazing Dancer with Street Performer in The Hague
+answer: 曲名や説明の一部が英語のままだ。私は世田谷の人間だし、日本語でちゃんと説明してくれないと困るよ。
+言葉: 6/10
+
+### Question: 【④もう一曲】
+verbatim: 🧭 知らない踊りの世界だけど、気分転換にひとつ
+ちがう
+見に行く →
+answer: 知らない街角の踊りなんて見せられても困る。さっさと馴染みの曲を聴かせてほしいから、もう帰りたいね。
+もう一曲: 2/10
+
+### Question: 【⑤総合】
+verbatim: 案内所
+最近、好きだったものを
+ひとつ見せてください。
+answer: 総合: 3/10
+
+### Question: 【⑥いちばん辛口な一言】
+verbatim: Amazing Dancer with Street Performer in The Hague
+通りすがりの街角が、急にステージになる瞬間。
+answer: ベラフォンテを頼んだのに、どこの誰とも知らんオランダの踊りを見せて「気分転換に」なんてのは、客を馬鹿にしている。
+
+Source: [joy-relief-station.lovable.app](https://joy-relief-station.lovable.app/cover-guide)</pre>
+</div></details>
+
+<h2>点数の推移</h2>
+<table><tr><th>いつ</th><th>人数</th><th>飴玉ゼロ ★目標0</th><th>100点換算</th><th>最低の役</th><th>仕入れ</th></tr><tr><td>2026-09-24 13:41</td><td>6人</td><td class=aoji>人（%）</td><td class=big>13.3点</td><td>myanmar-45-oba</td><td>17件</td></tr><tr><td>2026-09-24 13:51</td><td>6人</td><td class=akaji>4人（66.7%）</td><td class=big>13.3点</td><td>myanmar-45-oba</td><td>10件</td></tr></table>
+
+<div class=danmari>★これはお客さんの<b>感想</b>です。事実の主張（枚数・年号・有無）は裏を取っていません。在庫の有無だけは、手元の索引に機械で照合しています。</div>
+</div>
